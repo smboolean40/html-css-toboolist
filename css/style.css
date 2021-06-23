@@ -9,6 +9,13 @@
 body {
 	background-color: #f6f8f9;
 }
+.btn {
+	background-color: white;
+	border: 1px solid #c5cbd0;
+	padding: 5px;
+	border-radius: 5px;
+	color: #c5cbd0;
+}
 
 /* Header */
 header {
@@ -21,4 +28,65 @@ h1 {
 }
 .logo-img {
 	vertical-align: middle;
+}
+
+/* Main */
+main {
+	width: 60%;
+	background-color: #ffffff;
+	margin: 40px auto;
+	border-radius: 10px;
+}
+.actions {
+	padding: 15px 50px;
+	border-bottom: 2px solid #f6f8f9;
+}
+#btn-add-task {
+	background-color: #47adf1;
+	color: white;
+	border: 1px solid #47adf1;
+}
+
+.tasks {
+	padding: 15px 50px;
+}
+ul {
+	list-style: none;
+	margin-top: 15px;
+}
+li {
+	margin-top: 8px;
+}
+
+.circle {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+}
+.circle-green {
+	border: 1px solid green;
+	color: green;
+}
+.circle-red {
+	border: 1px solid red;
+	color: red;
+}
+
+.tag {
+	display: inline-block;
+	padding: 4px;
+	border-radius: 5px;
+	color: white;
+	font-size: 12px;
+}
+
+.tag-1 {
+	background-color: #45abea;
+}
+.tag-2 {
+	background-color: #9c72e4;
 }
