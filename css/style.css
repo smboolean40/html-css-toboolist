@@ -4,3 +4,21 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* Common */
+body {
+	background-color: #f6f8f9;
+}
+
+/* Header */
+header {
+	background-color: white;
+	padding: 10px 20px;
+}
+h1 {
+	display: inline;
+	vertical-align: middle;
+}
+.logo-img {
+	vertical-align: middle;
+}
